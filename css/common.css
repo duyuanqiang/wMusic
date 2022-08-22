@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    /* color: #333; */
+}
+ul,li{
+    list-style: none;
+}
+.top-image{
+    background-image: url(../images/topbar.png);
+}
+.wrap{
+    width: 1100px;
+    margin: 0 auto;
+    
+}
