@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\resoure\\练习"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wMusic"
+	}
+}
