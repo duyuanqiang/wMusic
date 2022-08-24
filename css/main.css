@@ -1,8 +1,5 @@
 
-.topbar{
-
-}
-.top{
+.topbar .top{
     height: 70px;
     background: #242424;
     border-bottom: 1px solid #000;
@@ -301,7 +298,7 @@
     border-bottom: 2px solid #C10D0C;
     background: url(/images/index.png) no-repeat -225px -156px;
 }
-.left-main .hot-wrap .hot-title .tit{
+.tit{
     float: left;
     /* display: block; */
     font-size: 20px;
@@ -319,11 +316,11 @@
     margin: 0 10px;
     color: #ccc;
 }
-.hot-wrap .hot-title .more{
+.more{
     float: right;
     margin-top: 9px;
 }
-.hot-wrap .hot-title .more .cor{
+.more .cor{
     display: inline-block;
     width: 12px;
     height: 12px;
@@ -345,4 +342,242 @@
     width: 140px;
     height: 204px;
     padding: 0 0 30px 42px;
+}
+.hot-wrap .cover-list .cover-box{
+    position: relative;
+}
+.hot-wrap .cover-list .cover-box .cover-img{
+    display: block;
+}
+.hot-wrap .cover-list .cover-box .msk{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/coverall.png) no-repeat 0 0;
+}
+.hot-wrap .cover-list .cover-box .bottom{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 27px;
+    color: #ccc;
+    background: url(/images/coverall.png) no-repeat 0 -537px;
+}
+.cover-list .cover-box .bottom .icon-play{
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    bottom: 4px;
+    width: 16px;
+    height: 17px;
+    background: url(/images/iconall.png) no-repeat 0 0;
+}
+.cover-list .cover-box .bottom .icon-head{
+    display: block;
+    float: left;
+    width: 14px;
+    height: 11px;
+    margin: 9px 5px 9px 10px;
+    background: url(/images/iconall.png) no-repeat 0 -24px;
+}
+.cover-list .cover-box .bottom .num{
+    display: block;
+    float: left;
+    margin-top: 7px;
+}
+.hot-wrap .cover-list .dec{
+    margin: 8px 0 3px;
+    width: 100%;
+    font-size: 14px;
+}
+.wrap3 .music-ad{
+    position: relative;
+    margin: 0 0 35px;
+}
+.wrap3 .header{
+    height: 33px;
+    padding: 0 10px 0 34px;
+    border-bottom: 2px solid #C10D0c;
+    background: url(/images/index.png) no-repeat -225px -156px;
+}
+.wrap3 .new-music .disk{
+    position: relative;
+    zoom:1;
+    height: 186px;
+    margin: 20px 0 37px;
+    border: 1px solid #d3d3d3;
+}
+.wrap3 .new-music .disk .inner{
+    height: 184px;
+    padding-left: 16px;
+    background: #f5f5f5;
+    border: 1px solid #fff;
+}
+.new-music .disk .inner .left-arrow{
+    position: absolute;
+    top: 71px;
+    left: 4px;
+    width: 17px;
+    height: 17px;
+    background: url(/images/index.png) no-repeat -260px -75px;
+}
+.new-music .disk .inner .roll{
+    position: relative;
+    overflow: hidden;
+    margin-top: 28px;
+    width: 645px;
+    height: 180px;
+}
+.new-music .inner .roll li{
+    float: left;
+    width: 118px;
+    height: 150px;
+    margin-left: 11px;
+    background: url(/images/index.png) no-repeat -260px 100px;
+}
+.inner .roll .alb{
+    position: relative;
+    margin-bottom: 7px;
+    width: 100px;
+    height: 100px;
+}
+.inner .roll .alb img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.inner .roll .alb .msk{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/images/coverall.png) no-repeat 0 -570px;
+    width: 118px;
+    height: 100px;
+
+}
+.thide{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.inner .roll p{
+    width: 90%;
+    line-height: 18px;
+}
+.inner .roll .thide-col{
+    color: #666;
+}
+
+.wrap3 .bill .bill-list{
+    height: 472px;
+    margin-top: 20px;
+    padding-left: 1px;
+    background: url(/images/index_bill.png) no-repeat 0 0;
+}
+.wrap3 .bill .bill-list .blk{
+    float: left;
+    width: 229px;
+}
+.bill .bill-list .blk .top{
+    height: 100px;
+    padding: 20px 0 0 19px;
+}
+.bill-list .blk .top .top-cover{
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.blk .top .top-cover img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.blk .top .top-cover a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/coverall.png) no-repeat -147px -57px;
+}
+.bill-list .blk .top .top-tit{
+    float: left;
+    width: 116px;
+    margin: 6px 0 0 10px;
+
+}
+.bill-list .blk .top .btn{
+    margin-top: 10px;
+}
+.blk .top .btn a{
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    text-indent: -9999px;
+    background: url(/images/index.png) no-repeat 0 9999px;
+}
+.blk .top .btn .play-icon{
+    background-position: -267px -205px ;
+}
+.blk .top .btn .collect-icon{
+    background-position: -300px -205px;
+}
+.bill-list .blk .sings-rank{
+    height: 319px;
+    margin-left: 50px;
+    line-height: 32px;
+
+}
+.bill-list .blk .sings-rank li{
+    height: 32px;
+    vertical-align: middle;
+
+}
+.bill-list .blk .sings-rank .num-rank{
+    float: left;
+    position: relative;
+    width: 35px;
+    height: 32px;
+    margin-left: -35px;
+    text-align: center;
+    font-size: 16px;
+    color: #C10D0c;
+}
+.bill-list .blk .sings-rank .oper{
+    float: right;
+    width: 82px;
+    margin-top: 7px;
+}
+.blk .sings-rank .oper a{
+    display: inline-block;
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+.sings-rank .oper a:nth-child(1){
+    background: url(/images/index.png) no-repeat -267px -268px;
+}
+.sings-rank .oper a:nth-child(2){
+    background: url(/images/icon.png) no-repeat 0 -698px;
+}
+.sings-rank .oper a:nth-child(3){
+    background: url(/images/index.png) no-repeat -297px -268px;
+}
+.blk .sing-more{
+    height: 32px;
+    margin-right: 32px;
+    text-align: right;
+    line-height: 32px;
+}
+.blk .sing-more a{
+    color: #000;
 }
