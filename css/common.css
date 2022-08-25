@@ -19,6 +19,10 @@ a{
 ul,li{
     list-style: none;
 }
+em,i{
+    list-style: normal;
+    font-style: inherit;
+}
 .s-fc3, a.s-fc3:hover {
     color: #666;
 }
@@ -36,6 +40,12 @@ ul,li{
     width: 1100px;
     margin: 0 auto;
     
+}
+.thide{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
 }
 .active{
     
