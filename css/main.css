@@ -536,6 +536,10 @@
     vertical-align: middle;
 
 }
+.bill-list .blk .sings-rank li:hover .oper{
+    display: inline-block;
+
+}
 .bill-list .blk .sings-rank .num-rank{
     float: left;
     position: relative;
@@ -547,6 +551,7 @@
     color: #C10D0c;
 }
 .bill-list .blk .sings-rank .oper{
+    display: none;
     float: right;
     width: 82px;
     margin-top: 7px;
