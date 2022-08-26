@@ -726,3 +726,101 @@
     vertical-align: top;
     color: #000;
 }
+.footer{
+    position: relative;
+    height: 172px;
+    overflow: hidden;
+    border-top: 1px solid #d3d3d3;
+    background: #f2f2f2;
+}
+.footer .main-footer{
+    margin: 0 auto;
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .main-footer .left-main{
+    width: 535px;
+    padding-top: 15px;
+    line-height: 24px;
+}
+.footer .main-footer .left-main .item{
+   color: #999;
+}
+.footer .main-footer .left-main .line{
+    margin: 0 2px 0 4px;
+    color:#c2c2c2
+}
+.footer .main-footer .left-main .copy{
+    color: #666;
+
+}
+.main-footer .left-main .copy .seq{
+    margin-right: 14px;
+}
+.main-footer .left-main .copy a{
+    color: #666;
+}
+.main-footer .left-main .alink a{
+    color: #666;
+}
+.main-footer .left-main .alink a:hover{
+    text-decoration: underline;
+}
+.main-footer .left-main .alink .police-logo{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(/images/police.png) no-repeat;
+    background-size: cover;
+    margin-right: 2px;
+    vertical-align: -2px;
+}
+.main-footer .left-main .alink .police{
+    margin-left: 5px;
+}
+.main-footer .left-main .supervise{
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+}
+.main-footer .right-main{
+    width: 420px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-footer .right-main li{
+    width: 60px;
+    height: 70px;
+    text-align: center;
+    color: #666;
+}
+.main-footer .right-main a{
+    margin: 0 auto;
+    width: 50px;
+    height: 45px;
+    display: block;
+    background: url(/images/foot_enter_new.png) no-repeat -63px -456.5px;
+    background-size: 110px 552px;
+    /* background-position: ; */
+}
+.main-footer .right-main span{
+    display: inline-block;
+    margin: 5px 5px 0;
+    width: 52px;
+    height: 14px;
+    background: url(/images/foot_enter_tt.png) no-repeat -1px -91px;
+    background-size: 180px 139px;
+}
+.back{
+    display: block;
+    position: fixed;
+    left: 50%;
+    bottom: 160px;
+    margin-left: 500px;
+    width: 49px;
+    height: 45px;
+    background: url(/images/sprite.png) no-repeat;
+    background-position: -265px -47px;
+}
